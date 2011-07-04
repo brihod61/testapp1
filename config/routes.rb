@@ -1,4 +1,8 @@
 Testapp1::Application.routes.draw do
+  get "say/hello"
+
+  get "say/goodbye"
+
   get "welcome/index"
 
   # The priority is based upon order of creation:
